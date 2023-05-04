@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: #000;
+}
+
+/* header */
+
+header {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    color: white;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.yash {
+    color: aqua;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: rgba(0, 255, 255, 0.5);
+}
+
+nav ul {
+    margin-left: 28%;
+}
+
+nav ul li {
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+/* main */
+.main {
+    padding-top: 100px;
+}
+
+.push_down {
+    padding-top: 250px;
+}
+
+/* home */
+.home .tag {
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+
+.home .sum {
+    font-size: 25px;
+}
+
+.home {
+    padding-bottom: 150px;
+}
+
+.home img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.imgs .name {
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+/* resume */
+.cvs {
+    margin-top: 50px;
+}
+
+.cv {
+    background: aqua;
+    transition: all .5s ease-out;
+    border: #000;
+    font-weight: 600;
+}
+
+.cv:hover {
+    background-position: left bottom;
+    background-color: rgba(0, 255, 255, 0.05);
+}
+
+/* skills */
+
+.skill_card {
+    background: rgba(255, 255, 255, 0.1);
+    width: 20rem;
+    margin-bottom: 20px;
+}
+
+.card-title,
+.card-subtitle {
+    color: white;
+    word-spacing: 2px;
+    margin-top: 5px;
+}
+
+#s2 {
+    padding-bottom: 20px;
+}
+
+.add_skill {
+    margin-left: 20px;
+}
+
+.progtag h5 {
+    text-align: center;
+    background: aqua;
+    margin: 30px 30px;
+    width: 85%;
+    padding: 10px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.atag2 {
+    text-align: center;
+    background: aqua;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.addad {
+    margin-left: 35px;
+}
+
+.addml {
+    margin-left: 40px;
+}
+.skill{
+text-align: center;
+}
+/* project */
+.project_card {
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+}
+
+.use {
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 1px 2px rgba(34, 157, 157, 0.5);
+    padding: 5px 10px;
+    color: aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feat {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+/* contact */
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    height: 20vh;
+    margin: auto;
+}
+.con{
+    margin-bottom: 20px;
+}
+@media screen and (max-width:991px) {
+
+    /* navigation */
+    nav ul {
+        margin-left: 0%;
+    }
+
+    /* home */
+    .home .tag {
+        font-size: 35px;
+        padding-bottom: 60px;
+    }
+
+    .home .sum {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+
+    .skill_card {
+        width: 18rem;
+        display: flex;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .cvs {
+        margin-top: 0px;
+    }
+
+    .atag2 {
+        font-size: 12px;
+    }
+
+    .addad {
+        margin-left: 20px;
+    }
+
+    .addml {
+        margin-left: 18px;
+    }
+
+    .use {
+        font-size: 15px;
+    }
+}
